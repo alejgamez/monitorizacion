@@ -1,1 +1,1 @@
-{"rsync":{"/var/www":{"guestpath":"/var/www","hostpath":"/home/alejandrogamez/utad/monitoring/coreos-vagrant/docroot","disabled":false,"owner":"core","group":"core"}}}
+{"rsync":{"/var/www":{"guestpath":"/var/www","hostpath":"/home/alejandrogamez/druid-kafka/monitorizacion/coreos-vagrant/docroot","disabled":false,"owner":"core","group":"core"}}}
