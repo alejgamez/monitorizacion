@@ -2,14 +2,15 @@
   Para instalarlo ejecutamos :
   
 ```
-wget http://mirrors.ukfast.co.uk/sites/ftp.apache.org/zookeeper/stable/zookeeper-3.4.6.tar.gz  
-tar -xvf zookeeper-3.4.6.tar.gz  
-cd zookeeper-3.4.6/ 
+wget http://mirrors.maychuviet.vn/apache/kafka/0.8.2.1/kafka_2.11-0.8.2.1.tgz
+tar -xvzf kafka_2.11-0.8.2.1.tgz
+cd kafka_2.11-0.8.2.1/
+
 ```
 
 
 Para ejecutarlo : 
   
 ```
-   bin/zkServer.sh start 
+   bin/kafka-server-start.sh config/server.properties
 ```
