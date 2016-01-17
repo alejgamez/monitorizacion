@@ -1,18 +1,15 @@
-##ACCESO A LA MAQUINA DE VAGRANT  
-  Ejecutamos :
+##CONFIGURACION ZOOKEEPER
+  Para instalarlo ejecutamos :
   
 ```
-   cd coreos-vagrant/
-   vagrant up #Esto nos levantará la maquina de Vagrant 
-   vagrant ssh #Esto nos permitira el acceso a la Maquina con CoreOS vía ssh
+wget http://mirrors.ukfast.co.uk/sites/ftp.apache.org/zookeeper/stable/zookeeper-3.4.6.tar.gz  
+tar -xvf zookeeper-3.4.6.tar.gz  
+cd zookeeper-3.4.6/ 
 ```
 
 
-##PREPARANDO LAS MÁQUINAS CON DOCKER   
-  Una vez estamos en la máquina levantamos los containers de docker con el entorno preparado  :
+Para ejecutarlo : 
   
 ```
-   docker start kafka1
-   docker start kafka2
-   docker start druid
+   bin/zkServer.sh start 
 ```
