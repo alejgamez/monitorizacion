@@ -1,4 +1,4 @@
-##CONFIGURACION KAFKA
+##CONFIGURACION DRUID
   Para instalarlo ejecutamos :
   
 ```
@@ -7,3 +7,4 @@ cd druid-<version>
 
 ```
 
+Para ejecutar el realtime hay que ejecutar el fichero en la carpeta realtime .json
